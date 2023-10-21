@@ -2,6 +2,9 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: README.md
+root: index.md
 chapters: 
-  - versioned_schemas/README.md
+  - file: schemas/README.md
+    sections:
+      - file: schemas/versioning.md
+  - file: tenants/README.md

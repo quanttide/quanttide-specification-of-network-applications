@@ -9,3 +9,5 @@ API文档使用OpenAPI。
 服务端使用FastAPI。
 
 客户端使用Flutter、使用BLoC架构。
+
+云服务使用多租户架构。
